@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://jhpneus.com.br/sitemap.xml
+
+# Crawl-delay para bots mais agressivos
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Permitir acesso a recursos importantes
+Allow: /styles.css
+Allow: /script.js
+Allow: /midias/
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.webp$
+Allow: /*.css$
+Allow: /*.js$
+
+# Bloquear arquivos desnecessários
+Disallow: /.htaccess
+Disallow: /*.log$
+Disallow: /*.bak$
+Disallow: /*.tmp$ 
