@@ -66,12 +66,12 @@ jh-pneus/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/ElevDispositivos/jh-pneus.git
+git clone https://github.com/ElevDispositivos/jh.pneus.git
 ```
 
 2. Navegue até o diretório:
 ```bash
-cd jh-pneus
+cd jh.pneus
 ```
 
 3. Abra o arquivo `index.html` em seu navegador ou use um servidor local:
